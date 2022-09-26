@@ -1,19 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://midimaster21b.github.io/cleanfolio',
+  title: 'JE.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Joshua Edgcombe',
+  role: 'FPGA Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  'I\'m currently working at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I originally learned to program in 2008 and have since learned to develop software in many different programming languages in a variety of environments including web, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 and have experience with algorithm implmentation and acceleration on FPGAs, GPUs, and DSPs.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/joshuaedgcombe/',
+    github: 'https://github.com/midimaster21b',
+    youtube: 'https://www.youtube.com/c/JoshEdgcombe',
+    twitter: 'https://twitter.com/midimaster21b',
   },
 }
 
@@ -21,51 +23,70 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+//      'A comparison of hardware accelerated image stitching solutions.',
+      'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
+    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
+    sourceCode: '',
+    livePreview: 'https://scholarworks.gvsu.edu/theses/1018/',
   },
   {
-    name: 'Project 2',
+    name: 'Implementing Analog and Digital Transceivers',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    'Implemented analog and digital communication transceivers using software-defined radios and GNU Radio Companion. Custom blocks were created to support the implementation of modulation and demodulation of AM, FM, FSK, PSK, and QAM signals. This included a dive into the theory behind several options for clock and data recovery.',
+    stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio'],
+    sourceCode: '',
+    livePreview: 'https://peer.asee.org/implementation-of-analog-and-digital-communications-transceivers-on-sdr-platforms-using-gnu-radio-companion',
   },
   {
-    name: 'Project 3',
+    name: 'Ti MSP432 Peripheral Driver Library',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a peripheral driver library for the Ti MSP432 microcontroller to gain experience interacting with peripherals.',
+    stack: ['C', 'MSP432'],
+    sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
+    livePreview: '',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  // 'HTML',
+  // 'CSS',
+  // 'JavaScript',
+  // 'TypeScript',
+  // 'React',
+  // 'Redux',
+  // 'SASS',
+  // 'Material UI',
+  // 'Git',
+  // 'CI/CD',
+  // 'Jest',
+  // 'Enzyme',
+
+  // Digital Design
+  'VHDL',
+  'Verilog',
+  'SystemVerilog',
+  'Tcl',
+
+  // Scripting
+  'Python',
+  'Ruby',
+  'Emacs Lisp',
+
+  // Embedded
+  'C',
+  'C++',
+  'MATLAB',
+  
+
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'joshedgcombe@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
