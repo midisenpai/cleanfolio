@@ -10,7 +10,7 @@ const about = {
   role: 'FPGA Engineer',
   description:
   'I\'m currently working at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I originally learned to program in 2008 and have since learned to develop software in many different programming languages in a variety of environments including web, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 and have experience with algorithm implmentation and acceleration on FPGAs, GPUs, and DSPs.',
-  resume: 'https://example.com',
+  resume: 'https://github.com/midimaster21b/cleanfolio/raw/main/public/JoshuaEdgcombeResume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joshuaedgcombe/',
     github: 'https://github.com/midimaster21b',
