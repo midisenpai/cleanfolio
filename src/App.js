@@ -1,3 +1,4 @@
+import ReactGA from "react-ga4"
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
@@ -8,6 +9,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+
+ReactGA.initialize("G-H9N6ZLJ1PK");
+ReactGA.send("pageview");
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
