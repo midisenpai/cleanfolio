@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# Cause emacs
+*~
+
 # testing
 /coverage
 
