@@ -9,7 +9,7 @@ const about = {
   name: 'Joshua Edgcombe',
   role: 'FPGA Engineer',
   description:
-  'I currently work at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I learned to program in 2008 and have since learned to write software in many different programming languages in a variety of environments including web, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 where I gained experience implementing and accelerating algorithms on FPGAs, GPUs, and DSPs. Since graduation I have been lucky enough to design, develop, and test a core component of the world\'s first deep-space radiation-hardened ethernet switch that will be used in a mission-critical capacity for the Artemis missions. I\'ve also been able to significantly contribute to a constellation of satellites that will soon be competing with Starlink, as well as a few defense related projects.',
+  'I currently work at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I learned to program in 2008 and have since learned to write software in many different programming languages in a variety of environments including web, mobile, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 where I gained experience implementing and accelerating algorithms on FPGAs, GPUs, and DSPs. Since graduation I have been lucky enough to design, develop, and test a core component of the world\'s first deep-space radiation-hardened ethernet switch that will be used in a mission-critical capacity for the Artemis missions. I\'ve also been able to significantly contribute to a constellation of satellites that will soon be competing with Starlink, as well as a few defense related projects.',
   resume: 'https://github.com/midimaster21b/cleanfolio/raw/main/public/JoshuaEdgcombeResume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joshuaedgcombe/',
@@ -112,6 +112,12 @@ const libraries = [
   'Docker',
 
   // Application
+  'pyside',
+  'pyqt',
+  'OpenGL',
+  'glut',
+  'OpenCV',
+  'OpenMP',
 
   // FPGA
   'vunit',
