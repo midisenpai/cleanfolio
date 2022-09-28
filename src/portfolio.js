@@ -49,6 +49,24 @@ const projects = [
   },
 ]
 
+const blogposts = [
+  {
+    title: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
+    body:
+      'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
+    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
+    permalink: '/blog/',
+  },
+  {
+    title: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
+    body:
+      'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
+    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
+    permalink: '/blog/',
+  },
+]
+
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -89,4 +107,4 @@ const contact = {
   email: 'joshedgcombe@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, blogposts, skills, contact }

@@ -1,13 +1,17 @@
 import ReactGA from "react-ga4"
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
+
 import Header from './components/Header/Header'
-import About from './components/About/About'
-import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+
+import HomePage from './pages/home/Home'
+import BlogPage from './pages/blog/Blog'
+import ProjectsPage from './pages/projects/Projects'
+
 import './App.css'
 
 ReactGA.initialize("G-H9N6ZLJ1PK");
@@ -17,19 +21,22 @@ const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
   return (
-    <div id='top' className={`${themeName} app`}>
-      <Header />
+        <div id='top' className={`${themeName} app`}>
+          <Header />
 
-      <main>
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
+          <main>
+            <Router>
+              <Routes>
+                <Route path='/' element={<HomePage />} />
+                <Route path='/blog' element={<BlogPage />} />
+                <Route path='/projects' element={<ProjectsPage />} />
+              </Routes>
+            </Router>
+          </main>
 
-      <ScrollToTop />
-      <Footer />
-    </div>
+          <ScrollToTop />
+          <Footer />
+        </div>
   )
 }
 
