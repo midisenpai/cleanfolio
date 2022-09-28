@@ -8,6 +8,12 @@ import Header from './components/Header/Header'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Footer from './components/Footer/Footer'
 
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
+
+
 import HomePage from './pages/home/Home'
 import BlogPage from './pages/blog/Blog'
 import ProjectsPage from './pages/projects/Projects'
@@ -25,19 +31,27 @@ const App = () => {
           <Header />
 
           <main>
-            <Router>
-              <Routes>
-                <Route path='/' element={<HomePage />} />
-                <Route path='/blog' element={<BlogPage />} />
-                <Route path='/projects' element={<ProjectsPage />} />
-              </Routes>
-            </Router>
-          </main>
-
+      <About />
+      <Contact />
+      <Projects />
+      <Skills />
+      </main>
           <ScrollToTop />
           <Footer />
         </div>
   )
 }
+
+          //   <Router>
+          //     <Routes>
+          //       <Route path='/' element={<HomePage />} />
+          //       <Route path='/blog' element={<BlogPage />} />
+          //       <Route path='/projects' element={<ProjectsPage />} />
+          //     </Routes>
+          //   </Router>
+          // </main>
+
+
+
 
 export default App
