@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
 
 
-        {projects.length > 5 ? (
+        {projects.length ? (
           <li className='nav__list-item'>
             <a
               href='/projects'
