@@ -9,7 +9,7 @@ const about = {
   name: 'Joshua Edgcombe',
   role: 'FPGA Engineer',
   description:
-  'I\'m currently working at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I originally learned to program in 2008 and have since learned to develop software in many different programming languages in a variety of environments including web, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 and have experience with algorithm implmentation and acceleration on FPGAs, GPUs, and DSPs.',
+  'I currently work at DornerWorks in Grand Rapids, Michigan and have a strong background in software development, digital design, and electrical engineering. I learned to program in 2008 and have since learned to write software in many different programming languages in a variety of environments including web, native, system, and embedded. I received my MSE in computer and electrical engineering in 2021 where I gained experience implementing and accelerating algorithms on FPGAs, GPUs, and DSPs. Since graduation I have been lucky enough to design, develop, and test a core component of the world\'s first deep-space radiation-hardened ethernet switch that will be used in a mission-critical role for the Artemis missions. I\'ve also been able to significantly contribute to a constellation of satellites that will soon be competing with Starlink, as well as a few defense related projects.',
   resume: 'https://github.com/midimaster21b/cleanfolio/raw/main/public/JoshuaEdgcombeResume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joshuaedgcombe/',
@@ -58,9 +58,9 @@ const blogposts = [
     permalink: '/blog/',
   },
   {
-    title: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
-    body:
-      'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
+    title: 'Migration To Ghost',
+    date: '2019-06-07',
+    body: "This is a test post.",
     stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
     permalink: '/blog/',
   },
@@ -74,7 +74,6 @@ const skills = [
   // 'CSS',
   // 'JavaScript',
   // 'TypeScript',
-  // 'React',
   // 'Redux',
   // 'SASS',
   // 'Material UI',
@@ -94,12 +93,22 @@ const skills = [
   'Ruby',
   'Emacs Lisp',
 
-  // Embedded
+  // Embedded/System
   'C',
   'C++',
   'MATLAB',
-  
 
+  // Application
+  'Java',
+  'C#',
+
+  // Web
+  // 'React',
+  'PHP',
+  'SQL',
+  'HTML5',
+  'CSS3',
+  'JavaScript',
 ]
 
 const contact = {

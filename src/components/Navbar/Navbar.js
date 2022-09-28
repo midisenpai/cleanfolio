@@ -42,14 +42,14 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {blogposts.length ? (
+        {blogposts.length > 5 ? (
           <li className='nav__list-item'>
             <a
               href='/blog'
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Blog
+            Blog
             </a>
           </li>
         ) : null}
