@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {blogposts.length > 5 ? (
+        {blogposts.length ? (
           <li className='nav__list-item'>
             <a
               href='/blog'
