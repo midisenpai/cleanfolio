@@ -1,5 +1,5 @@
 import ReactGA from "react-ga4"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+// import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
@@ -14,9 +14,9 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 
 
-import HomePage from './pages/home/Home'
-import BlogPage from './pages/blog/Blog'
-import ProjectsPage from './pages/projects/Projects'
+// import HomePage from './pages/home/Home'
+// import BlogPage from './pages/blog/Blog'
+// import ProjectsPage from './pages/projects/Projects'
 
 import './App.css'
 
