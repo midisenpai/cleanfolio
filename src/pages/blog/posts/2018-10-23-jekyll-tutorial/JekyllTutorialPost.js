@@ -1,47 +1,32 @@
-// import ReactMarkdown from 'react-markdown'
-
-// // <ReactMarkdown># Hello *World*!</ReactMarkdown>
-
-// const JekyllTutorialPost = () => (
-//     <section id='Blog_Article' className='section blogposts'>
-//     <ReactMarkdown source="./index.md" />
-//     </section>
-// )
-
-// export default JekyllTutorialPost
-
-
-
+/* eslint-disable */
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
-import termsFrPath from './index.md'
 
 class JekyllTutorialPost extends Component {
-  markdownText = null;
 
-  static getDerivedStateFromProps(props, state) {
-    // fetch("./index.md").then((response) => response.text()).then((text) => {
-    //   return text;
-    // })
-    // this.retrieve();
+  constructor(props) {
+    // Required step: always call the parent class' constructor
+    super(props);
+
+    // Set the state directly. Use props if necessary.
+    this.state = {
+      terms: null
+    }
 
     fetch("/blogs/2018-10-23-jekyll-tutorial/index.md").then((response) => response.text()).then((text) => {
-      console.log("Found the text:");
-      console.log(text);
-      this.markdownText = text;
-      this.render()
+      this.setState({terms: text});
     })
   }
 
-
   render() {
     return (
-      <div className="content">
-	<ReactMarkdown>{this.markdownText}</ReactMarkdown>
-      </div>
+	<section className="content">
+	  <ReactMarkdown>
+	    {this.state.terms}
+	  </ReactMarkdown>
+	</section>
     )
   }
 }
-// <ReactMarkdown source={this.state.terms} />
 
 export default JekyllTutorialPost
