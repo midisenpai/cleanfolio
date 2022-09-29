@@ -1,10 +1,3 @@
----
-title: Jekyll Tutorial
-date: "2018-10-23"
-template: post
-published: true
----
-
 Last weekend I decided to give my outdated personal website an update and ended up trying out Jekyll. I was pleasantly surprised with Jekyll's ease of use and integration with Github pages. I figured I'd pass along my experience to assist anyone else interested in trying out Jekyll with Github pages.
 
 ### Table of Contents
