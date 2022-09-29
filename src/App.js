@@ -14,8 +14,6 @@ import BlogListPage from './pages/blog/BlogList'
 import ProjectsPage from './pages/projects/Projects'
 
 // Blog posts
-import TestPost from './pages/blog/posts/20220928/TestPost'
-
 import { blogposts } from './portfolio'
 
 
@@ -39,8 +37,6 @@ const App = () => {
                 <Route path='/projects' element={<ProjectsPage />} />
 
                 {/* Blog Posts */}
-                <Route path='/blog/test' element={<TestPost />} />
-
                 {blogposts.map((blog) => (
                   <Route path={blog.permalink} element={<BlogPage md_url={blog.md_url} />} />
 		))}
