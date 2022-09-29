@@ -5,7 +5,7 @@ import uniqid from 'uniqid'
 
 const BlogpostContainer = ({ post }) => (
   <div className='blogpost'>
-    <h3>{post.title}</h3>
+    <h3><a href={post.permalink}>{post.title}</a></h3>
 
     <p className='project__description'>{post.body}</p>
     {post.stack && (

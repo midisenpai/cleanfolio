@@ -51,18 +51,44 @@ const projects = [
 
 const blogposts = [
   {
-    title: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
-    body:
-      'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
-    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
-    permalink: '/blog/',
+    title: 'Jekyll Tutorial',
+    date: '2018-10-23',
+    body: 'A Jekyll Tutorial',
+    stack: ['Jekyll'],
+    permalink: '/blog/jekyll-tutorial',
+    md_url: '/blogs/2018-10-23-jekyll-tutorial/index.md',
   },
   {
-    title: 'Migration To Ghost',
+    title: 'Jekyll Revamp',
+    date: '2018-10-20',
+    body: "This is a test.",
+    stack: ['Jekyll'],
+    permalink: '/blog/jekyll-revamp',
+    md_url: '/blogs/2018-10-20-jekyll-revamp/index.md',
+  },
+  {
+    title: 'My First React.js App',
+    date: '2019-05-30',
+    body: "This is a test.",
+    stack: ['React'],
+    permalink: '/blog/my-first-react-app',
+    md_url: '/blogs/2019-05-30-my-first-react-js-app/index.md',
+  },
+  {
+    title: 'Getting Started with GNU Radio Companion',
+    date: '2019-06-06',
+    body: "This is a test.",
+    stack: ['GNU Radio'],
+    permalink: '/blog/getting-started-with-grc',
+    md_url: '/blogs/2019-06-06-getting-started-with-gnu-radio/index.md',
+  },
+  {
+    title: 'Migrating to Ghost',
     date: '2019-06-07',
     body: "This is a test.",
-    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
-    permalink: '/blog/',
+    stack: ['Ghost'],
+    permalink: '/blog/migrating-to-ghost',
+    md_url: '/blogs/2019-06-07-migrating-to-ghost/index.md',
   },
 ]
 
