@@ -15,13 +15,6 @@ import ProjectsPage from './pages/projects/Projects'
 
 // Blog posts
 import TestPost from './pages/blog/posts/20220928/TestPost'
-// import JekyllRevampPost from './pages/blog/posts/2018-10-20-jekyll-revamp/JekyllRevampPost'
-// import JekyllTutorialPost from './pages/blog/posts/2018-10-23-jekyll-tutorial/JekyllTutorialPost'
-
-// import TestPost from './pages/blog/posts/20220928/TestPost'
-// import TestPost from './pages/blog/posts/20220928/TestPost'
-// import TestPost from './pages/blog/posts/20220928/TestPost'
-// import TestPost from './pages/blog/posts/20220928/TestPost'
 
 import { blogposts } from './portfolio'
 
@@ -56,30 +49,10 @@ const App = () => {
             </Router>
           </main>
 
-
-
           <ScrollToTop />
           <Footer />
         </div>
   )
 }
-
-      // <main>
-      // <About />
-      // <Contact />
-      // <Projects />
-      // <Skills />
-      // </main>
-
-      // <Route path='/blog/jekyll-revamp' element={<JekyllRevampPost />} />
-      // <Route path='/blog/jekyll-tutorial' element={<JekyllTutorialPost />} />
-// <Route path='/blog/jekyll-tutorial' element={<BlogPage md_url="/blogs/2018-10-23-jekyll-tutorial/index.md" />} />
-
-// <Route path={blogposts[0].permalink} element={<BlogPage md_url={blogposts[0].md_url} />} />
-// <Route path={blogposts[1].permalink} element={<BlogPage md_url={blogposts[1].md_url} />} />
-// <Route path={blogposts[2].permalink} element={<BlogPage md_url={blogposts[2].md_url} />} />
-// <Route path={blogposts[3].permalink} element={<BlogPage md_url={blogposts[3].md_url} />} />
-// <Route path={blogposts[4].permalink} element={<BlogPage md_url={blogposts[4].md_url} />} />
-
 
 export default App

@@ -1,10 +1,3 @@
----
-title: My First React.js App
-date: "2019-05-30"
-template: post
-published: true
----
-
 While I have a decent amount of work in the low level embedded and operating system environments in my portfolio, it's been some time since I have written my last web application. When I was given the opportunity to write an application to simulate the task of resource management in an operating system for my CIS 452: Operating System Concepts course I decided to write my first React application. This was a welcome introduction to the JavaScript web framework.
 
 Following my introduction to Jekyll as a managed static webpage generation utility, I decided to follow along the same path of static hosting for this application using GitHub pages to deploy the application. The deployed progam can be seen by clicking on the link below.

@@ -1,9 +1,3 @@
----
-title: Migration To Ghost
-date: "2019-06-07"
-template: post
-published: true
----
 This last week I decided to move to a dynamically hosted solution for my website using [Ghost](https://ghost.org/) as my CMS and [Google Cloud Platform](https://cloud.google.com/) for my hosting. Originally I had planned on building my website as a web app using the MEAN stack for the experience, but the overhead of building out a whole new CMS for my personal site alone would not be worth the time so I used the time to review the modern tools necessary for development and deployment of modern web services.
 
 ## Docker

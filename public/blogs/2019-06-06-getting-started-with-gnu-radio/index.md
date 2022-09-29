@@ -1,9 +1,3 @@
----
-title: Getting Started With GNU Radio
-date: "2019-06-06"
-template: post
-published: false
----
 This post covers the Ubuntu installation process and the beginner usage of GNU Radio using GNU Radio Companion for the construction of basic signal flowgraphs.
 
 # Section 1: GNU Radio
