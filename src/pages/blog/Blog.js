@@ -1,25 +1,12 @@
+/* eslint-disable */
 import React from 'react'
 
-import uniqid from 'uniqid'
-import { blogposts } from '../../portfolio'
-import BlogpostContainer from '../../components/BlogpostContainer/BlogpostContainer'
-// import ProjectContainer from '../ProjectContainer/ProjectContainer'
-// import './Projects.css'
+import BlogPost from '../../components/BlogPost/BlogPost'
 
-const BlogPage = () => {
-  if (!blogposts.length) return null
-
-  return (
+const BlogPage = (props) => (
     <section id='Blog' className='section blogposts'>
-      <h2 className='section__title'>Blog</h2>
-
-      <div className='projects__grid'>
-        {blogposts.map((blogpost) => (
-          <BlogpostContainer key={uniqid()} post={blogpost} />
-        ))}
-      </div>
+      <BlogPost md_url={props.md_url} />
     </section>
-  )
-}
+)
 
 export default BlogPage
