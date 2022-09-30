@@ -1,3 +1,3 @@
 [submodule "projects/Resource-Management-Simulator"]
 	path = src/projects/Resource-Management-Simulator
-	url = git@github.com:midimaster21b/Resource-Management-Simulator.git
+	url = https://github.com/midimaster21b/Resource-Management-Simulator.git
