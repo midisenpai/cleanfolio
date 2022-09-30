@@ -20,8 +20,6 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
     description:
@@ -45,6 +43,30 @@ const projects = [
       'Developed a peripheral driver library for the Ti MSP432 microcontroller to gain experience interacting with peripherals.',
     stack: ['C', 'MSP432'],
     sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
+    livePreview: '',
+  },
+  {
+    name: 'Emacs Stock Ticker',
+    description:
+    'When I initially got into stock trading in 2016 I wanted a way to watch the stocks I was interested in while I was developing at work. I also wanted a project to help me dive into Emacs lisp. The result was this major mode that displays a ticker symbol and it\'s current price in the mode line.',
+    stack: ['Emacs Lisp'],
+    sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
+    livePreview: '',
+  },
+  {
+    name: 'Resource Management Simulator',
+    description:
+    'This was a project for my operating system course in college to visualize and simulate whether a deadlock situation will arise from a sequence of resource acquisition actions. This was also my first React application.',
+    stack: ['React', 'Javascript'],
+    sourceCode: 'https://github.com/midimaster21b/Resource-Management-Simulator',
+    livePreview: 'https://joshuaedgcombe.com/Resource-Management-Simulator',
+  },
+  {
+    name: 'Jarvis',
+    description:
+    'The goal of this project was to aggregate all common forms of communication into a single interface with all forms of communication integration tied to the real contacts involved. This meant that when you were talking with a friend you could click on their name and see all communication on a timeline involving you and them regardless of communication method. The project name was used because I was using "Jarvis" from Iron Man as a base to model and develop. I implemented support for email, facebook, twitter, SMS, and phone calls. This project includes a web-based frontend using Material styling and an android application for retrieving/archiving phone-based communication.',
+    stack: ['django', 'python', 'Material', 'Java', 'Android'],
+    sourceCode: '',
     livePreview: '',
   },
 ]
