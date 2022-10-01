@@ -157,20 +157,20 @@ const projects = [
 
 const blogposts = [
   {
-    title: 'Jekyll Tutorial',
-    date: '2018-10-23',
-    body: 'Last weekend I decided to give my outdated personal website an update and ended up trying out Jekyll. I was pleasantly surprised with Jekyll\'s ease of use and integration with Github pages. I figured I\'d pass along my experience to assist anyone else interested in trying out Jekyll with Github pages.',
-    stack: ['Jekyll', 'Ruby'],
-    permalink: '/blog/jekyll-tutorial',
-    md_url: '/blogs/2018-10-23-jekyll-tutorial/index.md',
-  },
-  {
     title: 'Jekyll Revamp',
     date: '2018-10-20',
     body: "This weekend I decided to do a quick revamp of my personal website. Lately, I've had the desire to write up some informational articles about some of the topics I've been learning about in school as well as some of the insights I've gained from project work.",
     stack: ['Jekyll', 'Ruby'],
     permalink: '/blog/jekyll-revamp',
     md_url: '/blogs/2018-10-20-jekyll-revamp/index.md',
+  },
+  {
+    title: 'Jekyll Tutorial',
+    date: '2018-10-23',
+    body: 'Last weekend I decided to give my outdated personal website an update and ended up trying out Jekyll. I was pleasantly surprised with Jekyll\'s ease of use and integration with Github pages. I figured I\'d pass along my experience to assist anyone else interested in trying out Jekyll with Github pages.',
+    stack: ['Jekyll', 'Ruby'],
+    permalink: '/blog/jekyll-tutorial',
+    md_url: '/blogs/2018-10-23-jekyll-tutorial/index.md',
   },
   {
     title: 'My First React.js App',
