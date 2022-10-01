@@ -1,3 +1,5 @@
+# Jekyll Revamp
+
 This weekend I decided to do a quick revamp of my personal website. Lately, I've had the desire to write up some informational articles about some of the topics I've been learning about in school as well as some of the insights I've gained from project work.
 
 In redoing my website I wanted a website with static pages that could be hosted using github pages to reduce costs while I'm in school. I also wanted a means of posting blog articles to help solidify my knowledge through teaching, allow others to question my knowledge(further solidifying it), and provide another source of knowledge for those interested in the fields of software and electrical engineering. This led me creating to this website using the ruby based static website generator [Jekyll](https://jekyllrb.com/).

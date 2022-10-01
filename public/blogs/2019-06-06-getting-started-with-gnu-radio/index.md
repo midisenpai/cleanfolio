@@ -1,6 +1,8 @@
+# Getting Started With GNU Radio
+
 This post covers the Ubuntu installation process and the beginner usage of GNU Radio using GNU Radio Companion for the construction of basic signal flowgraphs.
 
-# Section 1: GNU Radio
+## Section 1: GNU Radio
 
 As stated on [the official GNU Radio website](https://wiki.gnuradio.org/index.php/What_is_GNU_Radio%3F): GNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. Basically GNU Radio provides a set of signal processing blocks similar to what MATLAB provides, but without the need for licensing. Additionally, GNU Radio allows the source and destination of signal processing flowgraphs to be software-defined radio hardware such as the [RTL-SDR](https://www.rtl-sdr.com/), [HackRF one](https://greatscottgadgets.com/hackrf/one/), and [LimeSDR](https://www.crowdsupply.com/lime-micro/limesdr).
 
@@ -8,11 +10,11 @@ If you're a programmer, check out my intro to [writing GNU Radio Blocks](http://
 
 GNU Radio also has a drag and drop GUI flowgraph creation tool that acts as a Simulink equivalent called GNU Radio Companion. GNU Radio Companion provides an easy method of getting started with the GNU Radio blocks and to perform some basic signal analysis quickly and easily. If you're just getting started with SDR, but want to see a bigger project check out my [GNU Radio FSK Tutorial](http://joshuaedgcombe.com/gnu-radio-bfsk/).
 
-## GNU Radio Companion
+### GNU Radio Companion
 
 GNU Radio Companion provides a graphical user interface for all of the functionality of GNU Radio. The graphical user interface that GNU Radio Companion provides allows for an easy introduction to the components provided by GNU Radio. It also provides a quick method for prototyping signal flowgraphs.
 
-# Section 2: Ubuntu Installation
+## Section 2: Ubuntu Installation
 Ensure that the computer you are currently working on has an internet connection.
 
 1. Open a terminal by pressing `ctrl+alt+t`
@@ -44,7 +46,7 @@ Ensure that the computer you are currently working on has an internet connection
 
 1. Right click on the GNU Radio companion icon on the left icon sidebar and lock the GNU Radio Companion icon in the icon bar for ease of access.
 
-# Section 3: Basic Message Encoding And Decoding
+## Section 3: Basic Message Encoding And Decoding
 
 A **vector source** block can be used to supply the message bytes for the system when prototyping. For larger messages a **file source** block could be used and for more complex or dynamic messages the flowgraph should be pulled together in python or C++. A basic closed loop system with messaging can be found in Figure 3.1 below.
 

@@ -40,6 +40,8 @@
     background-color: #666;
 }
 
-.language-code {
+/* .language-code { */
+code {
+    padding-left: 5px;
     color: #ccc;
 }
