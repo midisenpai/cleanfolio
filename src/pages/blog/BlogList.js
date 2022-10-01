@@ -4,6 +4,8 @@ import uniqid from 'uniqid'
 import { blogposts } from '../../portfolio'
 import BlogpostContainer from '../../components/BlogpostContainer/BlogpostContainer'
 
+import Skills from '../../components/Skills/Skills'
+
 const BlogListPage = () => {
   if (!blogposts.length) return null
 
@@ -16,6 +18,7 @@ const BlogListPage = () => {
           <BlogpostContainer key={uniqid()} post={blogpost} />
         ))}
       </div>
+      <Skills />
     </section>
   )
 }
