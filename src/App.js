@@ -12,9 +12,10 @@ import HomePage from './pages/home/Home'
 import BlogPage from './pages/blog/Blog'
 import BlogListPage from './pages/blog/BlogList'
 import ProjectsPage from './pages/projects/Projects'
+import ProjectPage from './pages/projects/Project'
 
 // Blog posts
-import { blogposts } from './portfolio'
+import { blogposts, projects } from './portfolio'
 
 // Projects
 // import { ResourceManager } from './projects/Resource-Management-Simulator/src/ResourceManager'
@@ -40,6 +41,9 @@ const App = () => {
                 <Route path='/projects' element={<ProjectsPage />} />
 
                 {/* Projects */}
+                {projects.map((project) => (
+                  <Route path={project.permalink} element={<ProjectPage md_url={project.md_url} />} />
+		))}
 
                 {/* Blog Posts */}
                 {blogposts.map((blog) => (

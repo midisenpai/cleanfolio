@@ -21,38 +21,45 @@ const about = {
 
 const projects = [
   {
-    name: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
+    name: 'Hardware Acceleration: Image Stitching',
     description:
       'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
     stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
     sourceCode: '',
     livePreview: 'https://scholarworks.gvsu.edu/theses/1018/',
+    permalink: '/projects/thesis',
+    md_url: '/projects/thesis/index.md',
   },
   {
-    name: 'SDR Analog and Digital Transceivers',
+    name: 'SDR Transceivers',
     description:
     'Implemented analog and digital communication transceivers using software-defined radios and GNU Radio Companion. Custom blocks were created to support the implementation of modulation and demodulation of AM, FM, FSK, PSK, and QAM signals. This included a dive into the theory behind several options for clock and data recovery.',
     stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio'],
     sourceCode: '',
     livePreview: 'https://peer.asee.org/implementation-of-analog-and-digital-communications-transceivers-on-sdr-platforms-using-gnu-radio-companion',
+    permalink: '/projects/sdr-gnu-radio-transceivers',
+    md_url: '/projects/sdr-gnu-radio-transceivers/index.md',
   },
   {
-    name: 'Ti MSP432 Peripheral Driver Library',
+    name: 'MSP432 Driver Library',
     description:
       'Developed a peripheral driver library for the Ti MSP432 microcontroller to gain experience interacting with peripherals.',
     stack: ['C', 'MSP432'],
     sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
     livePreview: '',
+    permalink: '/projects/msp432-drivers',
+    md_url: '/projects/msp432-drivers/index.md',
   },
   {
     name: 'Emacs Stock Ticker',
     description:
     'Developed an Emacs major mode that allows the user to view realtime prices of a user specified list of ticker symbols in the mode line. I pulled this program together in a day because I wanted a way to keep an eye on stock prices while I was developing.',
 
-    // 'When I initially got into stock trading in 2016 I wanted a way to watch the stocks I was interested in while I was developing at work. I also wanted a project to help me dive into Emacs lisp. The result was this major mode that displays a ticker symbol and it\'s current price in the mode line.',
     stack: ['Emacs Lisp'],
     sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
     livePreview: '',
+    permalink: '/projects/emacs-stock-ticker',
+    md_url: '/projects/emacs-stock-ticker/index.md',
   },
   {
     name: 'Resource Management Simulator',
@@ -62,6 +69,8 @@ const projects = [
     sourceCode: 'https://github.com/midimaster21b/Resource-Management-Simulator',
     livePreview: 'https://midimaster21b.github.io/Resource-Management-Simulator/',
     // livePreview: '/projects/Resource-Management-Simulator',
+    permalink: '/projects/resource-management-sim',
+    md_url: '/projects/resource-management-sim/index.md',
   },
   {
     name: 'Jarvis',
@@ -70,6 +79,8 @@ const projects = [
     stack: ['django', 'python', 'Material', 'Java', 'Android'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/jarvis',
+    md_url: '/projects/jarvis/index.md',
   },
 
   {
@@ -79,6 +90,8 @@ const projects = [
     stack: ['Verilog', 'VHDL'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/sha-256',
+    md_url: '/projects/sha-256/index.md',
   },
   {
     name: 'OV7670 To VGA',
@@ -87,6 +100,8 @@ const projects = [
     stack: ['VHDL', 'Basys3'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/image-sensor-lab',
+    md_url: '/projects/image-sensor-lab/index.md',
   },
   {
     name: 'SPI Slave',
@@ -95,6 +110,8 @@ const projects = [
     stack: ['VHDL', 'Basys3'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/fpga-spi-slave',
+    md_url: '/projects/fpga-spi-slave/index.md',
   },
   {
     name: 'Machine Learning Implementations',
@@ -103,6 +120,8 @@ const projects = [
     stack: ['C', 'Neural Networks', 'Machine Learning'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/school/machine-learning-labs',
+    md_url: '/projects/machine-learning-labs/index.md',
   },
   {
     name: 'Dot Parser',
@@ -111,6 +130,8 @@ const projects = [
     stack: ['python'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/school/dot-parser',
+    md_url: '/projects/dot-parser/index.md',
   },
   {
     name: 'Better Banner',
@@ -119,6 +140,8 @@ const projects = [
     stack: ['python'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/better-banner',
+    md_url: '/projects/better-banner/index.md',
   },
   {
     name: 'FPGA Library',
@@ -127,10 +150,9 @@ const projects = [
     stack: ['VHDL', 'Verilog'],
     sourceCode: '',
     livePreview: '',
+    permalink: '/projects/fpga-library',
+    md_url: '/projects/fpga-library/index.md',
   },
-
-
-
 ]
 
 const blogposts = [
