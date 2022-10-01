@@ -23,14 +23,13 @@ const projects = [
   {
     name: 'Hardware Acceleration in Image Stitching: GPU vs FPGA',
     description:
-//      'A comparison of hardware accelerated image stitching solutions.',
       'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
     stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
     sourceCode: '',
     livePreview: 'https://scholarworks.gvsu.edu/theses/1018/',
   },
   {
-    name: 'Implementing Analog and Digital Transceivers',
+    name: 'SDR Analog and Digital Transceivers',
     description:
     'Implemented analog and digital communication transceivers using software-defined radios and GNU Radio Companion. Custom blocks were created to support the implementation of modulation and demodulation of AM, FM, FSK, PSK, and QAM signals. This included a dive into the theory behind several options for clock and data recovery.',
     stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio'],
@@ -48,7 +47,9 @@ const projects = [
   {
     name: 'Emacs Stock Ticker',
     description:
-    'When I initially got into stock trading in 2016 I wanted a way to watch the stocks I was interested in while I was developing at work. I also wanted a project to help me dive into Emacs lisp. The result was this major mode that displays a ticker symbol and it\'s current price in the mode line.',
+    'Developed an Emacs major mode that allows the user to view realtime prices of a user specified list of ticker symbols in the mode line. I pulled this program together in a day because I wanted a way to keep an eye on stock prices while I was developing.',
+
+    // 'When I initially got into stock trading in 2016 I wanted a way to watch the stocks I was interested in while I was developing at work. I also wanted a project to help me dive into Emacs lisp. The result was this major mode that displays a ticker symbol and it\'s current price in the mode line.',
     stack: ['Emacs Lisp'],
     sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
     livePreview: '',
@@ -70,6 +71,66 @@ const projects = [
     sourceCode: '',
     livePreview: '',
   },
+
+  {
+    name: 'SHA-256',
+    description:
+    'Developed an implementation of the SHA-256 algorithm in both Verilog and VHDL. Originally, I wrote this implementation in Verilog for an assignment in an encryption course, but I later converted the code to VHDL because that was what I was mainly developing in at the time.',
+    stack: ['Verilog', 'VHDL'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'OV7670 To VGA',
+    description:
+    'Developed a VHDL implmentation that initializes an OV7670 image sensor and writes the output to a VGA output using a Digilent Basys3 development board.',
+    stack: ['VHDL', 'Basys3'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'SPI Slave',
+    description:
+    'Developed a VHDL implmentation of a simple SPI slave device.',
+    stack: ['VHDL', 'Basys3'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'Machine Learning Implementations',
+    description:
+    'Developed machine learning implementations for neural networks, bayesian inference(mixed bag), .',
+    stack: ['C', 'Neural Networks', 'Machine Learning'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'Dot Parser',
+    description:
+    'Developed a dot parser for my compilers course',
+    stack: ['python'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'Better Banner',
+    description:
+    'Developed a python GUI for viewing and managing courses during course sign-up at GVSU.',
+    stack: ['python'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'FPGA Library',
+    description:
+    'Developed a library that gathers commonly used FPGA components and modules.',
+    stack: ['VHDL', 'Verilog'],
+    sourceCode: '',
+    livePreview: '',
+  },
+
+
+
 ]
 
 const blogposts = [
