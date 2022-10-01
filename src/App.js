@@ -17,7 +17,8 @@ import ProjectsPage from './pages/projects/Projects'
 import { blogposts } from './portfolio'
 
 // Projects
-import { ResourceManager } from './projects/Resource-Management-Simulator/src/ResourceManager'
+// import { ResourceManager } from './projects/Resource-Management-Simulator/src/ResourceManager'
+// <Route path='/projects/Resource-Management-Simulator' element={<ResourceManager />} />
 
 import './App.css'
 
@@ -39,7 +40,6 @@ const App = () => {
                 <Route path='/projects' element={<ProjectsPage />} />
 
                 {/* Projects */}
-                <Route path='/projects/Resource-Management-Simulator' element={<ResourceManager />} />
 
                 {/* Blog Posts */}
                 {blogposts.map((blog) => (
