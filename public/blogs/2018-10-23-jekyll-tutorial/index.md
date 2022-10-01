@@ -1,3 +1,5 @@
+# Jekyll Tutorial
+
 Last weekend I decided to give my outdated personal website an update and ended up trying out Jekyll. I was pleasantly surprised with Jekyll's ease of use and integration with Github pages. I figured I'd pass along my experience to assist anyone else interested in trying out Jekyll with Github pages.
 
 ### Table of Contents
@@ -9,7 +11,7 @@ Last weekend I decided to give my outdated personal website an update and ended 
    - Themes
    - Google Analytics Integration
 
-# Jekyll Setup and Installation
+## Jekyll Setup and Installation
 
 1. rbenv installation
 
@@ -46,7 +48,7 @@ Last weekend I decided to give my outdated personal website an update and ended 
 
    I would recommend going through the [walkthrough](https://jekyllrb.com/docs/step-by-step/01-setup/) on Jekyll's website if you are new to Jekyll. The walkthough moves fairly quickly and explains all of the basic concepts of Jekyll really well.
 
-# Using Jekyll with GitHub Pages
+## Using Jekyll with GitHub Pages
 
 Using Jekyll with GitHub Pages is an easy way to statically host a website. I've included below the steps to create a new Jekyll website to be hosted on GitHub Pages.
 
@@ -119,15 +121,15 @@ Using Jekyll with GitHub Pages is an easy way to statically host a website. I've
    bundle exec jekyll serve
    ```
 
-   and visit http://127.0.0.1:4000
+   and visit [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
-# Jekyll Common Additions
+## Jekyll Common Additions
 
-## Comments
+### Comments
 
 Comments can be added to a static site using a comment service like [disqus](https://disqus.com/) or [just-comments](https://just-comments.com/). I decided to use disqus on my site and have been happy with the service.
 
-## Themes
+### Themes
 
 GitHub pages supports integration of certain [themes](https://pages.github.com/themes/) without including the layouts and assets from the theme.
 

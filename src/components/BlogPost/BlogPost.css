@@ -1,0 +1,45 @@
+.blogposts section a {
+    color: #00f;
+}
+
+.blogposts section p {
+    /* margin: 20px 0 20px 0; */
+    margin: 10px 0 0 0;
+}
+
+.blogposts section h1 {
+    margin: 0 0 20px 0;
+}
+
+.blogposts section h2 {
+    margin: 10px 0 20px 0;
+}
+
+.blogposts section h3 {
+    margin: 10px 0 10px 0;
+}
+
+.blogposts section ul {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.blogposts section ul li {
+    margin-left: 18px;
+}
+
+.blogposts section ol {
+    margin-top: 10px;
+}
+
+.blogposts section ol li {
+    margin-top: 5px;
+}
+
+.blogposts section pre {
+    background-color: #666;
+}
+
+.language-code {
+    color: #ccc;
+}
