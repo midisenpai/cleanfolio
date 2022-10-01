@@ -59,7 +59,7 @@ const projects = [
     'This was a project for my operating system course in college to visualize and simulate whether a deadlock situation will arise from a sequence of resource acquisition actions. This was also my first React application.',
     stack: ['React', 'Javascript'],
     sourceCode: 'https://github.com/midimaster21b/Resource-Management-Simulator',
-    livePreview: 'https://joshuaedgcombe.com/Resource-Management-Simulator',
+    livePreview: '/projects/Resource-Management-Simulator',
   },
   {
     name: 'Jarvis',
