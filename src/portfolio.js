@@ -21,7 +21,7 @@ const about = {
 
 const projects = [
   {
-    name: 'Hardware Acceleration: Image Stitching',
+    name: 'Image Stitching',
     description:
       'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
     stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
@@ -62,7 +62,7 @@ const projects = [
     md_url: '/projects/emacs-stock-ticker/index.md',
   },
   {
-    name: 'Resource Management Simulator',
+    name: 'Deadlock Simulator',
     description:
     'This was a project for my operating system course in college to visualize and simulate whether a deadlock situation will arise from a sequence of resource acquisition actions. This was also my first React application.',
     stack: ['React', 'Javascript'],
@@ -114,7 +114,7 @@ const projects = [
     md_url: '/projects/fpga-spi-slave/index.md',
   },
   {
-    name: 'Machine Learning Implementations',
+    name: 'Machine Learning',
     description:
     'Developed machine learning implementations for neural networks, bayesian inference(mixed bag), .',
     stack: ['C', 'Neural Networks', 'Machine Learning'],
