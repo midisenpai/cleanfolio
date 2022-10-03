@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 // import './BlogPost.css'
+import './ProjectPost.css'
 
 class ProjectPost extends Component {
 

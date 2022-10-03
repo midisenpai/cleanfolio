@@ -1,0 +1,57 @@
+.projectposts section img {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 450px;
+}
+
+.projectposts section p:has(img) {
+    text-align: center;
+}
+
+.projectposts section a {
+    color: #00f;
+}
+
+.projectposts section p {
+    /* margin: 20px 0 20px 0; */
+    margin: 10px 0 0 0;
+}
+
+.projectposts section h1 {
+    margin: 0 0 20px 0;
+}
+
+.projectposts section h2 {
+    margin: 10px 0 20px 0;
+}
+
+.projectposts section h3 {
+    margin: 10px 0 10px 0;
+}
+
+.projectposts section ul {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.projectposts section ul li {
+    margin-left: 18px;
+}
+
+.projectposts section ol {
+    margin-top: 10px;
+}
+
+.projectposts section ol li {
+    margin-top: 5px;
+}
+
+.projectposts section pre {
+    background-color: #666;
+}
+
+/* .language-code { */
+code {
+    padding-left: 5px;
+    color: #ccc;
+}
