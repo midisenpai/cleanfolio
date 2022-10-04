@@ -33,7 +33,7 @@ const Navbar = () => {
         {projects.length ? (
           <li className='nav__list-item'>
             <a
-              href='/projects'
+              href='#projects'
               onClick={toggleNavList}
               className='link link--nav'
             >
@@ -45,7 +45,7 @@ const Navbar = () => {
         {blogposts.length ? (
           <li className='nav__list-item'>
             <a
-              href='/blog'
+              href='#blog'
               onClick={toggleNavList}
               className='link link--nav'
             >
