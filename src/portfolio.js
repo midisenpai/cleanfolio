@@ -41,49 +41,6 @@ const projects = [
     md_url: '/projects/sdr-gnu-radio-transceivers/index.md',
   },
   {
-    name: 'MSP432 Driver Library',
-    description:
-      'Developed a peripheral driver library for the Ti MSP432 microcontroller to gain experience interacting with peripherals.',
-    stack: ['C', 'MSP432'],
-    sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
-    livePreview: '',
-    permalink: '/projects/msp432-drivers',
-    md_url: '/projects/msp432-drivers/index.md',
-  },
-  {
-    name: 'Emacs Stock Ticker',
-    description:
-    'Developed an Emacs major mode that allows the user to view realtime prices of a user specified list of ticker symbols in the mode line. I pulled this program together in a day because I wanted a way to keep an eye on stock prices while I was developing.',
-
-    stack: ['Emacs Lisp'],
-    sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
-    livePreview: '',
-    permalink: '/projects/emacs-stock-ticker',
-    md_url: '/projects/emacs-stock-ticker/index.md',
-  },
-  {
-    name: 'Deadlock Simulator',
-    description:
-    'This was a project for my operating system course in college to visualize and simulate whether a deadlock situation will arise from a sequence of resource acquisition actions. This was also my first React application.',
-    stack: ['React', 'Javascript'],
-    sourceCode: 'https://github.com/midimaster21b/Resource-Management-Simulator',
-    livePreview: 'https://midimaster21b.github.io/Resource-Management-Simulator/',
-    // livePreview: '/projects/Resource-Management-Simulator',
-    permalink: '/projects/resource-management-sim',
-    md_url: '/projects/resource-management-sim/index.md',
-  },
-  {
-    name: 'Jarvis',
-    description:
-    'The goal of this project was to aggregate all common forms of communication into a single interface with all forms of communication integration tied to the real contacts involved. This meant that when you were talking with a friend you could click on their name and see all communication on a timeline involving you and them regardless of communication method. The project name was used because I was using "Jarvis" from Iron Man as a base to model and develop. I implemented support for email, facebook, twitter, SMS, and phone calls. This project includes a web-based frontend using Material styling and an android application for retrieving/archiving phone-based communication.',
-    stack: ['django', 'python', 'Material', 'Java', 'Android'],
-    sourceCode: '',
-    livePreview: '',
-    permalink: '/projects/jarvis',
-    md_url: '/projects/jarvis/index.md',
-  },
-
-  {
     name: 'SHA-256',
     description:
     'Developed an implementation of the SHA-256 algorithm in both Verilog and VHDL. Originally, I wrote this implementation in Verilog for an assignment in an encryption course, but I later converted the code to VHDL because that was what I was mainly developing in at the time.',
@@ -104,55 +61,98 @@ const projects = [
     md_url: '/projects/image-sensor-lab/index.md',
   },
   {
-    name: 'SPI Slave',
+    name: 'MSP432 Driver Library',
     description:
-    'Developed a VHDL implmentation of a simple SPI slave device.',
-    stack: ['VHDL', 'Basys3'],
-    sourceCode: '',
+      'Developed a peripheral driver library for the Ti MSP432 microcontroller to gain experience interacting with peripherals.',
+    stack: ['C', 'MSP432'],
+    sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
     livePreview: '',
-    permalink: '/projects/fpga-spi-slave',
-    md_url: '/projects/fpga-spi-slave/index.md',
+    permalink: '/projects/msp432-drivers',
+    md_url: '/projects/msp432-drivers/index.md',
   },
   {
-    name: 'Machine Learning',
+    name: 'Emacs Stock Ticker',
     description:
-    'Developed machine learning implementations for neural networks, bayesian inference(mixed bag), .',
-    stack: ['C', 'Neural Networks', 'Machine Learning'],
-    sourceCode: '',
+    'Developed an Emacs major mode that allows the user to view realtime prices of a user specified list of ticker symbols in the mode line. I pulled this program together in a day because I wanted a way to keep an eye on stock prices while I was developing.',
+
+    stack: ['Emacs Lisp'],
+    sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
     livePreview: '',
-    permalink: '/projects/school/machine-learning-labs',
-    md_url: '/projects/machine-learning-labs/index.md',
+    permalink: '/projects/emacs-stock-ticker',
+    md_url: '/projects/emacs-stock-ticker/index.md',
   },
-  {
-    name: 'Dot Parser',
-    description:
-    'Developed a dot parser for my compilers course',
-    stack: ['python'],
-    sourceCode: '',
-    livePreview: '',
-    permalink: '/projects/school/dot-parser',
-    md_url: '/projects/dot-parser/index.md',
-  },
-  {
-    name: 'Better Banner',
-    description:
-    'Developed a python GUI for viewing and managing courses during course sign-up at GVSU.',
-    stack: ['python'],
-    sourceCode: '',
-    livePreview: '',
-    permalink: '/projects/better-banner',
-    md_url: '/projects/better-banner/index.md',
-  },
-  {
-    name: 'FPGA Library',
-    description:
-    'Developed a library that gathers commonly used FPGA components and modules.',
-    stack: ['VHDL', 'Verilog'],
-    sourceCode: '',
-    livePreview: '',
-    permalink: '/projects/fpga-library',
-    md_url: '/projects/fpga-library/index.md',
-  },
+  // {
+  //   name: 'Deadlock Simulator',
+  //   description:
+  //   'This was a project for my operating system course in college to visualize and simulate whether a deadlock situation will arise from a sequence of resource acquisition actions. This was also my first React application.',
+  //   stack: ['React', 'Javascript'],
+  //   sourceCode: 'https://github.com/midimaster21b/Resource-Management-Simulator',
+  //   livePreview: 'https://midimaster21b.github.io/Resource-Management-Simulator/',
+  //   // livePreview: '/projects/Resource-Management-Simulator',
+  //   permalink: '/projects/resource-management-sim',
+  //   md_url: '/projects/resource-management-sim/index.md',
+  // },
+  // {
+  //   name: 'Jarvis',
+  //   description:
+  //   'The goal of this project was to aggregate all common forms of communication into a single interface with all forms of communication integration tied to the real contacts involved. This meant that when you were talking with a friend you could click on their name and see all communication on a timeline involving you and them regardless of communication method. The project name was used because I was using "Jarvis" from Iron Man as a base to model and develop. I implemented support for email, facebook, twitter, SMS, and phone calls. This project includes a web-based frontend using Material styling and an android application for retrieving/archiving phone-based communication.',
+  //   stack: ['django', 'python', 'Material', 'Java', 'Android'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/jarvis',
+  //   md_url: '/projects/jarvis/index.md',
+  // },
+
+  // {
+  //   name: 'SPI Slave',
+  //   description:
+  //   'Developed a VHDL implmentation of a simple SPI slave device.',
+  //   stack: ['VHDL', 'Basys3'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/fpga-spi-slave',
+  //   md_url: '/projects/fpga-spi-slave/index.md',
+  // },
+  // {
+  //   name: 'Machine Learning',
+  //   description:
+  //   'Developed machine learning implementations for neural networks, bayesian inference(mixed bag), .',
+  //   stack: ['C', 'Neural Networks', 'Machine Learning'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/school/machine-learning-labs',
+  //   md_url: '/projects/machine-learning-labs/index.md',
+  // },
+  // {
+  //   name: 'Dot Parser',
+  //   description:
+  //   'Developed a dot parser for my compilers course',
+  //   stack: ['python'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/school/dot-parser',
+  //   md_url: '/projects/dot-parser/index.md',
+  // },
+  // {
+  //   name: 'Better Banner',
+  //   description:
+  //   'Developed a python GUI for viewing and managing courses during course sign-up at GVSU.',
+  //   stack: ['python'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/better-banner',
+  //   md_url: '/projects/better-banner/index.md',
+  // },
+  // {
+  //   name: 'FPGA Library',
+  //   description:
+  //   'Developed a library that gathers commonly used FPGA components and modules.',
+  //   stack: ['VHDL', 'Verilog'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  //   permalink: '/projects/fpga-library',
+  //   md_url: '/projects/fpga-library/index.md',
+  // },
 ]
 
 const blogposts = [
