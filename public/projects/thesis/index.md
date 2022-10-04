@@ -80,6 +80,65 @@ for two image sources can be seen below.
    that determination.
 
 
-### FPGA
+## FPGA
 
-### GPU
+For the FPGA accelerated portion of this project, acceleration was used for image
+preprocessing and the feature detection portion of the pipeline. The choice to accelerate
+only this portion of the pipeline is mainly due to the large resource utilization required for
+parallelizing the application of all the different SURF filters being applied to a common
+set of data. Once the feature point locations have been found, they are passed with the
+calculated integral image to the systems DDR memory via DMA. The remainder of the
+processing performed by the image stitching pipeline is performed using the FPGA's
+integrated hardcore ARM processing subsystem. A high-level architecture of the FPGA
+feature detection portion of the pipeline can be seen in the figure below.
+
+
+![FPGA SURF Algorithm Dataflow Diagram](/projects/thesis/fpga_design.png)
+**Figure 2.** FPGA SURF Algorithm Dataflow Diagram
+
+Once the processor receives the feature point locations and their associated filter
+widths along with the integral image, feature point description can occur. Feature points
+are appended to a linked list and the feature points found in the exclusionary region
+around the border of the image are discarded. The number of linked lists for the feature
+points retained during processing is equal to the number of image sources used. Once all
+the feature points have been described for at least two input images, the feature point lists
+are supplied to the feature matching code.
+
+Feature matching is performed using a brute force comparison of all points
+between the two linked lists of feature points using a relative matching criterion. The
+brute force comparison process tracks the two lowest feature point description errors
+using two variables. When the two lowest errors fulfill the relative matching criteria after
+iterating through all possible matches, the feature point associated with the lowest error
+and the feature point being considered are considered a match. A match is indicated using
+a nonzero pointer value stored in the linked list struct associated with each feature point.
+Once all feature point matches have been found, the homography calculation is
+performed using RANSAC.
+
+After the homography matrix is found, it is supplied to the host computer via a
+UART serial communication link. The mixing of the two images is then performed on the
+host computer using OpenCV and displayed to the user in a new window.
+
+
+## GPU
+
+For the GPU design, the CUDA library was used for accelerating the algorithm on
+an Nvidia graphics card and OpenCV was used to read the input images and output the
+stitched image. The program was written in C++ with most of the code being C
+compliant. The SURF algorithm, feature point matching algorithm, and homography
+calculation algorithm were written from scratch originally as a proof-of-concept
+implementation to be executed on a CPU. Writing these algorithms from scratch also
+allowed for easier porting to the GPU-based hardware acceleration. Additionally, some of
+the code written for the proof-of-concept CPU version of the program was used in the
+FPGA implementation.
+
+The portion of the pipeline that was accelerated on the graphics card was the
+feature detection portion of the pipeline. This includes the integral image calculation,
+SURF image filtering, and non-maximal value suppression. The NMS image the GPU
+calculates is a mask image which gets converted to a list of feature points on the host
+computer so that it can be used by the remainder of the image stitching pipeline. A
+graphical representation of the high-level architecture of the GPU implementation can be
+seen in the figure below.
+
+
+![GPU SURF Algorithm Dataflow Diagram](/projects/thesis/gpu_design.png)
+**Figure 3.** GPU SURF Algorithm Dataflow Diagram
