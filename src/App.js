@@ -46,7 +46,7 @@ const App = () => {
 		))}
 
                 {/* Blog Posts */}
-                {blogposts.map((blog) => (
+                {blogposts.reverse().map((blog) => (
                   <Route path={blog.permalink} element={<BlogPage md_url={blog.md_url} />} />
 		))}
 
