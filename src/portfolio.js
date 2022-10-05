@@ -24,7 +24,7 @@ const projects = [
     name: 'Image Stitching',
     description:
       'Implemented a full image processing pipeline from scratch that included feature detection, feature matching, image transformation, and image stitching portions. This pipeline was accelerated on an FPGA and a GPU separately for performance comparison.',
-    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU'],
+    stack: ['C', 'C++', 'Cuda', 'OpenCV', 'VHDL', 'Verilog', 'Python', 'Tcl', 'SURF', 'FPGA', 'GPU', 'Digilent Genesys ZU'],
     sourceCode: '',
     livePreview: 'https://scholarworks.gvsu.edu/theses/1018/',
     permalink: '/projects/thesis',
@@ -34,7 +34,7 @@ const projects = [
     name: 'SDR Transceivers',
     description:
     'Implemented analog and digital communication transceivers using software-defined radios and GNU Radio Companion. Custom blocks were created to support the implementation of modulation and demodulation of AM, FM, FSK, PSK, and QAM signals. This included a dive into the theory behind several options for clock and data recovery.',
-    stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio'],
+    stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio', 'HackRF One'],
     sourceCode: '',
     livePreview: 'https://peer.asee.org/implementation-of-analog-and-digital-communications-transceivers-on-sdr-platforms-using-gnu-radio-companion',
     permalink: '/projects/sdr-gnu-radio-transceivers',
@@ -44,7 +44,7 @@ const projects = [
     name: 'SHA-256',
     description:
     'Developed an implementation of the SHA-256 algorithm in both Verilog and VHDL. Originally, I wrote this implementation in Verilog for an assignment in an encryption course, but I later converted the code to VHDL because that was what I was mainly developing in at the time.',
-    stack: ['Verilog', 'VHDL'],
+    stack: ['Verilog', 'VHDL', 'Basys3'],
     sourceCode: '',
     livePreview: '',
     permalink: '/projects/sha-256',
@@ -180,14 +180,14 @@ const blogposts = [
     permalink: '/blog/my-first-react-app',
     md_url: '/blogs/2019-05-30-my-first-react-js-app/index.md',
   },
-  {
-    title: 'Getting Started with GNU Radio Companion',
-    date: '2019-06-06',
-    body: "This post covers the Ubuntu installation process and the beginner usage of GNU Radio using GNU Radio Companion for the construction of basic signal flowgraphs.",
-    stack: ['GNU Radio'],
-    permalink: '/blog/getting-started-with-grc',
-    md_url: '/blogs/2019-06-06-getting-started-with-gnu-radio/index.md',
-  },
+  // {
+  //   title: 'Getting Started with GNU Radio Companion',
+  //   date: '2019-06-06',
+  //   body: "This post covers the Ubuntu installation process and the beginner usage of GNU Radio using GNU Radio Companion for the construction of basic signal flowgraphs.",
+  //   stack: ['GNU Radio'],
+  //   permalink: '/blog/getting-started-with-grc',
+  //   md_url: '/blogs/2019-06-06-getting-started-with-gnu-radio/index.md',
+  // },
   {
     title: 'Migrating to Ghost',
     date: '2019-06-07',
