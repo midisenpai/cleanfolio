@@ -14,7 +14,8 @@
 
    1. Append to ~/.bashrc
 
-      ```. $HOME/.asdf/asdf.sh
+      ```
+      . $HOME/.asdf/asdf.sh
       . $HOME/.asdf/completions/asdf.bash
       ```
 
