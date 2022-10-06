@@ -196,6 +196,14 @@ const blogposts = [
     permalink: '/blog/migrating-to-ghost',
     md_url: '/blogs/2019-06-07-migrating-to-ghost/index.md',
   },
+  {
+    title: 'Modern FPGA Tooling',
+    date: '2022-10-06',
+    body: "A modern approach to FPGA tooling.",
+    stack: ['Python', 'FuseSoC'],
+    permalink: '/blog/modern-fpga-tooling',
+    md_url: '/blogs/2022-10-05-modern-fpga-tooling/index.md',
+  },
 ]
 
 
