@@ -37,7 +37,8 @@ const projects = [
     stack: ['C', 'Python', 'GNU Radio', 'Software-Defined Radio', 'HackRF One'],
     sourceCode: '',
     livePreview: 'https://peer.asee.org/implementation-of-analog-and-digital-communications-transceivers-on-sdr-platforms-using-gnu-radio-companion',
-    permalink: '/projects/sdr-gnu-radio-transceivers',
+    // permalink: '/projects/sdr-gnu-radio-transceivers',
+    permalink: '/#projects',
     md_url: '/projects/sdr-gnu-radio-transceivers/index.md',
   },
   {
@@ -47,7 +48,8 @@ const projects = [
     stack: ['Verilog', 'VHDL', 'Basys3'],
     sourceCode: '',
     livePreview: '',
-    permalink: '/projects/sha-256',
+    // permalink: '/projects/sha-256',
+    permalink: '/#projects',
     md_url: '/projects/sha-256/index.md',
   },
   {
@@ -57,7 +59,8 @@ const projects = [
     stack: ['VHDL', 'Basys3'],
     sourceCode: '',
     livePreview: '',
-    permalink: '/projects/image-sensor-lab',
+    // permalink: '/projects/image-sensor-lab',
+    permalink: '/#projects',
     md_url: '/projects/image-sensor-lab/index.md',
   },
   {
@@ -67,7 +70,8 @@ const projects = [
     stack: ['C', 'MSP432'],
     sourceCode: 'https://github.com/midimaster21b/MSP432_DriverLibrary',
     livePreview: '',
-    permalink: '/projects/msp432-drivers',
+    // permalink: '/projects/msp432-drivers',
+    permalink: '/#projects',
     md_url: '/projects/msp432-drivers/index.md',
   },
   {
@@ -78,7 +82,8 @@ const projects = [
     stack: ['Emacs Lisp'],
     sourceCode: 'https://github.com/midimaster21b/emacs-stock-tracker',
     livePreview: '',
-    permalink: '/projects/emacs-stock-ticker',
+    // permalink: '/projects/emacs-stock-ticker',
+    permalink: '/#projects',
     md_url: '/projects/emacs-stock-ticker/index.md',
   },
   // {
@@ -196,14 +201,14 @@ const blogposts = [
     permalink: '/blog/migrating-to-ghost',
     md_url: '/blogs/2019-06-07-migrating-to-ghost/index.md',
   },
-  {
-    title: 'Modern FPGA Tooling',
-    date: '2022-10-06',
-    body: "A modern approach to FPGA tooling.",
-    stack: ['Python', 'FuseSoC'],
-    permalink: '/blog/modern-fpga-tooling',
-    md_url: '/blogs/2022-10-05-modern-fpga-tooling/index.md',
-  },
+  // {
+  //   title: 'Modern FPGA Tooling',
+  //   date: '2022-10-06',
+  //   body: "A modern approach to FPGA tooling.",
+  //   stack: ['Python', 'FuseSoC'],
+  //   permalink: '/blog/modern-fpga-tooling',
+  //   md_url: '/blogs/2022-10-05-modern-fpga-tooling/index.md',
+  // },
 ]
 
 
