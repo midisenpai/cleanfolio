@@ -83,7 +83,7 @@ main {
 
 .btn {
   display: block;
-  cursor: pointer;
+  /* cursor: pointer; */
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
@@ -128,9 +128,9 @@ main {
   border: 0;
 }
 
-.btn--plain:hover {
-  transform: translateY(-4px);
-}
+/* .btn--plain:hover { */
+/*   transform: translateY(-4px); */
+/* } */
 
 .btn--icon {
   padding: 0;
