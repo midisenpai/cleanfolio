@@ -13,7 +13,7 @@ const Skills = () => {
       <h2 className='section__title'>Languages</h2>
       <ul className='skills__list'>
         {skills.map((skill) => (
-          <li key={uniqid()} className='skills__list-item'>
+          <li key={uniqid()} className='skills__list-item btn--plain'>
             {skill}
           </li>
         ))}
