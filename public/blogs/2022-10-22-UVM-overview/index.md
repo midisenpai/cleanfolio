@@ -129,6 +129,10 @@ The Run Phase exits in one of two ways:
    `uvm_root::set_timeout` function. If this phase is exited due to timeout, a
    FATAL error is raised.
 
+## Connecting multiple agents to a scoreboard
+
+// Useful forum: https://verificationacademy.com/forums/uvm/how-connect-scoreboard-more-one-monitor
+
 ## How to Write Test Cases
 
 
