@@ -100,6 +100,35 @@ The virtual sequencer is a fourth sequence class that allows sequencers to be
 grouped together and utilized from a single source file more easily.
 
 
+
+## UVM Phases
+
+### Run Phase
+
+This is the only phase which utilizes a task rather than a function. Tasks allow
+time to pass(e.g. the simulation is running) while functions do not allow
+simulation time to pass.
+
+The Run Phase exits in one of two ways:
+
+1. All run_phase objections are dropped
+
+  It is the responsibility of at least one of the UVM components associated with
+  the testbench to raise an objection immediately upon entering the run_phase.
+  If none of the components raise an objection before the first simulation tick
+  has passed, the simulation will immediately exit the run phase. Oftentimes it
+  is the responsibility of the component inheriting from `uvm_test` (being
+  responsible for the high level control and functioning of the testbench) to
+  raise an objection as it's first function call `phase.raise_objection(this);`
+  and drop the objection as it's last function call `phase.drop_objection(this);`.
+
+1. Timeout occurs
+
+   The other method for exiting the run_phase is when simulation timeout occurs.
+   The default value of timeout is set to 9200 seconds, but can be set using the
+   `uvm_root::set_timeout` function. If this phase is exited due to timeout, a
+   FATAL error is raised.
+
 ## How to Write Test Cases
 
 
