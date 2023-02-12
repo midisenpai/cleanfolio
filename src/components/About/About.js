@@ -18,6 +18,18 @@ import './About.css'
 //   </a>
 // )}
 
+// {social.github && (
+//  <a
+//    href={resume}
+//    target="_blank" rel="noopener noreferrer"
+//    aria-label='resume'
+//    className='link link--icon'
+//  >
+//    <DescriptionOutlinedIcon />
+//  </a>
+// )}
+
+
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -40,17 +52,6 @@ const About = () => {
 
         {social && (
           <>
-             // {social.github && (
-             //  <a
-             //    href={resume}
-	     //    target="_blank" rel="noopener noreferrer"
-             //    aria-label='resume'
-             //    className='link link--icon'
-             //  >
-             //    <DescriptionOutlinedIcon />
-             //  </a>
-             // )}
- 
           {social.linkedin && (
               <a
                 href={social.linkedin}
