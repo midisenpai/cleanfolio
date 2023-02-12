@@ -40,16 +40,16 @@ const About = () => {
 
         {social && (
           <>
-             {social.github && (
-              <a
-                href={resume}
-	        target="_blank" rel="noopener noreferrer"
-                aria-label='resume'
-                className='link link--icon'
-              >
-                <DescriptionOutlinedIcon />
-              </a>
-            )}
+             // {social.github && (
+             //  <a
+             //    href={resume}
+	     //    target="_blank" rel="noopener noreferrer"
+             //    aria-label='resume'
+             //    className='link link--icon'
+             //  >
+             //    <DescriptionOutlinedIcon />
+             //  </a>
+             // )}
  
           {social.linkedin && (
               <a
