@@ -52,3 +52,18 @@
 1. Install FuseSoC
 
    `pip install fusesoc`
+
+
+### FuseSoC Config
+
+An example ~/.config/fusesoc/fusesoc.conf file:
+
+   ```
+   [library.midi-cores]
+   location = /home/midimaster21b/src/midi-cores
+   sync-uri = https://github.com/midimaster21b/rtl-core-library
+   sync-type = git
+   auto-sync = true
+   ```
+
+BUT, you should probably just use the `fusesoc library add` command to add appropriate libaries
