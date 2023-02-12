@@ -1,10 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-// import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
-import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
-// import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
+// import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
-// import TwitterIcon from '@mui/icons-material/Twitter';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
 import { about } from '../../portfolio'
@@ -32,7 +29,7 @@ import './About.css'
 
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
