@@ -13,9 +13,9 @@ const about = {
   // resume: 'https://github.com/midimaster21b/cleanfolio/raw/main/public/JoshuaEdgcombeResume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joshuaedgcombe/',
-    github: 'https://github.com/midimaster21b',
+    github: 'https://github.com/midisenpai',
     youtube: 'https://www.youtube.com/c/JoshEdgcombe',
-    twitter: 'https://twitter.com/midimaster21b',
+    twitter: 'https://x.com/midimaster21b',
   },
 }
 
